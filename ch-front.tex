@@ -1,0 +1,162 @@
+\ProvidesFile{ch-front.tex}[2021-08-23 front matter chapter]
+%
+%  This is ``front matter'' for the thesis.
+%
+%  REFERENCES
+%
+%    TCMOS17
+%      The Chicago Manual of Style Online, 17th edition.
+%      https://www.chicagomanualofstyle.org/home.html
+%      retrieved on 2020-02-29
+%
+%    TEMPL
+%      Thesis and Disertation Office Templates.
+%      https://www.purdue.edu/gradschool/research/thesis/templates.html
+%      retrieved on 2020-02-29
+%
+%    WNNCD
+%    Webster's Ninth New Collegiate Dictionary.
+%
+
+%
+%   Only Purdue University uses this page
+%
+%   Comment out \begin{statement} through \end{statement}
+%   if you are not at Purdue University.
+%
+% Statement of Thesis/Dissertation Approval Page
+% This page is REQUIRED.  The page should be numbered "2"
+% and should NOT be listed in your TABLE OF CONTENTS.
+\begin{statement}
+  % Delete or add \entry commands as needed for all committe members.
+  \entry{Dr.~Gaurav Chopra, Chair}{Department of Chemistry}
+  \entry{Dr.~Hilkka I. Kentämaa}{Department of Chemistry}
+  \entry{Dr.~Herman O. Sintim}{Department of Chemistry}
+  \entry{Dr.~David Thompson}{Department of Chemistry}
+  % There should be one \approvedby command containing the
+  % "FORM 9 THESIS FORM HEAD NAME HERE" (from TEMPL, retrieved on 2020-03-01).
+  \approvedby{Dr.~Christine A. Hrycyna}
+     Head of the School Graduate Program\\
+\end{statement}
+
+% Dedication page is optional.
+% A name and often a message in tribute to a person or cause.
+% References: WEB9 332.
+\begin{dedication}
+  This thesis is dedicated to the mentors and advisors who have supported me
+  throughout my education.
+\end{dedication}
+
+% Acknowledgements page is optional but most theses include
+% a brief statement of appreciation or recognition of special
+% assistance.
+\begin{acknowledgments}
+  I would like to acknowledge the various individuals, whom without their support and insight, this thesis would not exists.  
+  Firstly, I would like to thank my advisor, Dr. Gaurav Chopra, for his infinite patience and support.  Additionally, beyond his endless emotional support as a friend, the mentorship of Jonathan Fine was critical for the development of both my coding abilities and critical thinking as a scientist.  I would also like to thank Krupal Jethava for assisting with organic synthesis, and his insight regarding transformations involved in the development of a solvent prediction machine learning pipeline. For the work regarding an autonomous HPLC-MS, I would like to thank Ruth Anyaeche and Prageeth Rajitha in addition to Dr. Hilkka Kentämaa. 
+\end{acknowledgments}
+
+% The preface is optional.
+% References: TCMOS17 1.49, WEB9 927.
+\begin{preface}
+  This is the preface.
+\end{preface}
+
+% The Table of Contents is required.
+% The Table of Contents will be automatically created for you
+% using information you supply in
+%     \chapter
+%     \section
+%     \subsection
+%     \subsubsection
+%     commands.
+\pdfbookmark{TABLE OF CONTENTS}{Contents}
+\tableofcontents
+
+% If your thesis has tables, a list of tables is required.
+% The List of Tables will be automatically created for you using
+% information you supply in
+%     \begin{table} ... \end{table}
+% environments.
+\listoftables
+
+% If your thesis has figures, a list of figures is required.
+% The List of Figures will be automatically created for you using
+% information you supply in
+%     \begin{figure} ... \end{figure}
+% environments.
+\listoffigures
+
+% If your thesis has protocols, you may want to do a list of protocols.
+% The List of Protocols will be automatically created for you using
+% information you supply in
+%     \begin{protocol} ... \end{protocol}
+% environments.
+\listofprotocols
+
+% If your thesis has schemes, you may want to do a list of schemes.
+% The List of Schemes will be automatically created for you using
+% information you supply in
+%     \begin{scheme} ... \end{scheme}
+% environments.
+\listofschemes
+
+% List of Symbols is optional.
+\begin{symbols}
+  $m$& mass\cr
+  $v$& velocity\cr
+\end{symbols}
+
+% List of Abbreviations is optional.
+\begin{abbreviations}
+  DP& Diagnostic Product\cr
+  DT& Decision Tree\cr
+  GMM& Gaussian Mixture Models\cr
+  GUI& Graphical User Interface\cr
+  JT-VAE& Junction Tree Variational Autoencoder\cr
+  ML& Machine Learning\cr
+  MLP& Multi-Layer Perceptron Neural Network\cr
+  PT& Proton Transfer\cr
+  RMSD& Root Mean Squared Deviation\cr
+  ROC& Receiver Operator Characteristic\cr
+\end{abbreviations}
+
+% Nomenclature is optional.
+\begin{nomenclature}
+  MOP& 2-methoxy propylene\\
+  TDMAB& tris(dimethylamino)borane\\
+  TMB& trimethyl borate\\
+
+\end{nomenclature}
+
+% Glossary is optional.
+\begin{glossary}
+  philtrum& the groove between the nose and upper lip\\
+  septem& the cartilage in the nose that separates the nostrils\\
+  supercalifragilisticexpialidocious&
+    a nonsense word,
+    originally used esp.~by children,
+    and typically expressing excited approbation:
+    fantastic,
+    fabulousextraordinarily good \cite{super...}\\
+  test entry&
+    This is a a long test sentence.\\
+\end{glossary}
+
+% Abstract is required.
+% Note that the information for the first paragraph of the output
+% doesn't need to be input here...it is put in automatically from
+% information you supplied earlier using \title, \author, \degree,
+% and \majorprof.
+% Reference: PU 17.
+\begin{abstract}
+\noindent
+Beck, Armen G. Ph.D., Purdue University, December 2022.  Bit by Bit Chemistry: Data Driven Software for Chemical Systems.  Major Professor: Gaurav Chopra\\
+
+  \PurdueThesisLogo\ is a \LaTeX\ document class used for
+  master's bypass reports,
+  master's theses,
+  PhD dissertations,
+  and PhD preliminary reports.
+  This template demonstrates how to use \PurdueThesisLogo.
+
+\end{abstract}

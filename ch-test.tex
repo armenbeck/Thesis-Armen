@@ -1,0 +1,21 @@
+\ProvidesFile{ch-test.tex}[2021-08-23 test chapter]
+
+\begin{refsection}
+\chapter{TEST}
+
+\verb+\cite[page v]{knuth2012}+ gives ``\cite[page v]{knuth2012}''.
+
+\noindent
+\verb+\cite[back cover]{lamport1994}+ gives ``\cite[back cover]{lamport1994}''.
+
+\noindent
+\verb+\cite{thesis2017}+ gives ``\cite{thesis2017}''.
+
+\noindent
+\verb+\cite{thesis2020}+ gives ``\cite{thesis2020}''.
+
+\begin{singlespace}
+\def\sllnsez{[1] }
+\PrintChapterBibliography
+\end{singlespace}
+\end{refsection}

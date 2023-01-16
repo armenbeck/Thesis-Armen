@@ -1,0 +1,59 @@
+\ProvidesFile{ap-frequently-asked-quetions.tex}[2021-08-23 Frequently Asked Questions appendix]
+
+\begin{VerbatimOut}{z.out}
+\chapter{FREQUENTLY ASKED QUESTIONS}
+\ix{frequently asked questions//Frequently Asked Questions appendix}
+
+{\bfseries PART OF THESIS WITH PROBLEM}
+
+{
+  \def\part#1%
+  {
+    \vspace*{\baselineskip}
+    {\bfseries #1}
+  }
+
+  \def\qa#1#2%
+  {
+    \vspace*{\baselineskip}
+    {\small\bfseries Q}: #1\endgraf
+    \vspace*{0.5\baselineskip}
+    {\small\bfseries A}: #2\endgraf
+  }
+
+
+  \part{Entire Thesis}
+
+  \qa
+  {What \LaTeX\ comand should I use to compile my thesis?}
+  {%
+    The \LuaLaTeXLogo%
+    \ix{LuaLaTeX//lualatex}%
+    \index{\LuaLaTeXLogo}
+    program in the \TeXLiveLogo%
+    \index{\TeXLiveLogo}%
+    \ix{TeX Live}
+    software distribution.
+    Overleaf \cite{overleaf}
+    (run \LaTeX%
+    \index{\LaTeX}
+    over the web)
+    uses \TeXLiveLogo---%
+    in Overleaf click {\tt Menu\/} key in upper left corner of window
+    and set {\tt Compiler\/} to {\tt LuaLaTeX} to run \LuaLaTeXLogo.)
+    \TeXLiveLogo\ runs on Linux\ix{Linux},
+    MacOS\ix{MacOS},
+    Unix\ix{Unix},
+    and Windows\ix{Windows}.%
+  }
+
+
+  \part{References}
+
+  \qa
+  {URLs are not getting printed.  What should I do?}%
+  {Make sure you are processing your docuent with \LuaLaTeXLogo.}
+}
+\end{VerbatimOut}
+
+\MyIO

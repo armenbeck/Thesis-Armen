@@ -1,0 +1,116 @@
+\ProvidesFile{ap-bugs}[2021-08-23 bugs appendix]
+
+\newcommand{\bug}{\vspace{6pt}}  
+\newcommand{\checkedok}[1]{{\bfseries Checked ok on #1.}}
+\newcommand{\waitingon}[1]{{\bfseries Waiting on #1.}}
+
+\chapter{BUGS}
+
+See ap-bugs.tex file for \LaTeX\ input.
+
+
+\section{These problems need to be fixed}
+
+% I need to fix the following things in \PurdueThesis.
+% They are listed in decreasing order in priority.
+
+\bug
+Allow manual line break in \verb+\title+.
+{\small (Mark Senn <mark@purdue.edu>.)}
+
+\bug
+Allow comma in \verb+\title+.
+{\small (Mark Senn <mark@purdue.edu>).}
+
+\bug
+Table of Contents uses double-spaced instead of 1\sfrac12 spacing.
+Tighten up section and less significant heading spacing?
+{\small (Anita Adams Sale <aasale@iupui.edu>, 2021-03-17, 11:16.)}
+ 
+\bug
+List of Figures indented $\approx$\sfrac14 inch
+more than List of Tables.
+{\small (Anita Adams Sale <aasale@iupui.edu>, 2021-03-17, 11:16.)}
+
+\bug
+Left reference section margin is ok if a person has 10--99 references.
+Figure out how to adjusting margin for 1--9 or over 99 references.
+{\small (Mark Senn <mark@purdue.edu>.)}
+
+\bug
+Change citation, e.g., ``[6], [71]'' to ``[6,71]''.
+{\small (Mark Senn <mark@purdue.edu>, 2021-04-07, 11:55.)}
+
+\bug
+Change citation, e.g., ``[6], [7], [8]'' to ``[6-8]''.
+{\small (Mark Senn <mark@purdue.edu>, 2021-04-07, 11:55.)}
+
+\bug
+APA reference style indents references too far on left.
+{\small (Mark Senn <mark@purdue.edu>, 2021-04-08, 21:42.)}
+
+\bug
+Use ``Last Accessed: dd/mm/yy.'' urldate in bibliography.
+{\small (Priyank Kalgaonkar <pkalgaon@iupui.edu>, 2021-04-06, 15:58.)}
+
+\bug
+Use ``Last Accessed: yyyy-mm-dd.'' urldate in bibliography.
+{\small (Mark Senn <mark@purdue.edu>, 2021-04-19, 17:05.)}
+
+\bug
+Check that \verb+@{}+ is before the left column
+and after the right column in all tables.
+{\small (Mark Senn <mark@purdue.edu>, 2021-04-19, 21:32.)}
+
+\bug  
+Add DTECH degree.
+
+
+\section{These issues have been reported}
+
+\bug
+Bibliography change.
+Change,
+for example,
+``Acoustical Science and Technology, vol.~23, no.~1''
+to
+``Acoustical Science and Technology {\bfseries 23\/} ({\bfseries 1\/})''.
+{\small (Daniel Joesph Carr <djcarr@purdue.edu>, 2021-06-16, 09:33.)}
+
+\bug
+Bibliography change.
+Change,
+for example,
+``M.~Abramowitz and I.A.~Stegun, Eds.,''
+to
+``M.~Abramowitz and I.A.~Stegun, editors,''
+{\small (Daniel Joesph Carr <djcarr@purdue.edu>, 2021-06-16, 09:33.)}
+
+\bug
+Section headings containing a SmallCaps font do not work.
+{\small (Javad (Nima) Darivandpour" <jdarivan@purdue.edu>, 2021-06-29, 10:25.}
+See \ref{section-headings-with-smallcaps-font}
+
+\section{These problems are waiting on a reply}
+
+\verb+linktoc = section+ does not work with captions with \verb+\frac+.
+{\small
+  (Mark Senn <mark@purdue.edu>, 2021-05-27, 13:09.
+  In the short-term check with Ashlee Messersmith <amiley@purdue.edu>
+  if \verb+linktoc = page+ can be used.
+  If that's ok make the change
+  and look into changing captions from my code
+  to \LaTeX's code.)%
+}
+\waitingon{Ashlee}
+
+
+\section{These problems have been fixed}
+
+Non-nested description environments have bold items.
+Nested description environments have non-bold items.
+How come?
+Are the indentations correct?
+{\small (Mark Senn <mark@purdue.edu>, 2021-04-09, 16:49.)}
+\checkedok{2021-05-31}
+

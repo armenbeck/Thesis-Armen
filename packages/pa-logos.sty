@@ -1,0 +1,40 @@
+\ProvidesPackage{pa-logos.sty}[2021-08-23 logos package]
+
+% For \METAFONTLogo and \METAPOSTLogo.
+\font\tenlogo=logo10
+
+% Based on information in
+%     ~/sw/ubuntu-18.04-x86_64/texlive/2021//texmf-dist/tex/latex/mflogo/mflogo.sty
+\def\AMSmathLogo{\textsf{AMS}\textsf{math}}
+
+% Based on information in
+%     https://ctan.math.illinois.edu/graphics/pgf/contrib/circuitikz/doc/circuitikzmanual.pdf
+\def\CircuiTikZLogo{Circui\TikZLogo}
+
+\def\LuaLaTeXLogo{Lua\LaTeX}
+
+% Also see
+%     ~/sw/ubuntu-18.04-x86_64/texlive/2021//texmf-dist/tex/latex/mflogo/mflogo.sty
+\def\METAFONTLogo{{\tenlogo METAFONT}}
+
+% Also see
+%     ~/sw/ubuntu-18.04-x86_64/texlive/2021//texmf-dist/tex/latex/mflogo/mflogo.sty
+\def\METAPOSTLogo{{\tenlogo METAPOST}}
+
+\def\PurdueThesisLogo{P\kern-0.15ex urdue\kern-0.05ex T\kern-0.1ex hesis}
+
+\def\PuThLogo{P\kern-0.15ex u\kern-0.05ex T\kern-0.1ex h}
+
+\def\TeXLiveLogo{\TeX\ Live}
+
+% From
+%     Re: Typesetting the TikZ logo
+%     Axel E. Retif
+%     2010-05-01
+%     21:12
+%     def\tikzname{Ti\emph{k}Z}
+% in
+%     http://pgf-and-tikz.10981.n7.nabble.com/Typesetting-the-TikZ-logo-td4045.html
+% \def\tikzname{Ti\emph{k}Z}
+\def\TikZLogo{Ti\emph{k}Z}
+

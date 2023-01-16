@@ -1,0 +1,45 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{LIST OF TABLES}{8}{chapter*.5}%
+\contentsline {chapter}{LIST OF FIGURES}{9}{chapter*.6}%
+\contentsline {chapter}{LIST OF PROTOCOLS}{12}{chapter*.7}%
+\contentsline {chapter}{LIST OF SCHEMES}{13}{chapter*.8}%
+\contentsline {chapter}{LIST OF SYMBOLS}{14}{chapter*.9}%
+\contentsline {chapter}{ABBREVIATIONS}{15}{chapter*.10}%
+\contentsline {chapter}{NOMENCLATURE}{16}{chapter*.11}%
+\contentsline {chapter}{GLOSSARY}{17}{chapter*.12}%
+\contentsline {chapter}{ABSTRACT}{18}{chapter*.13}%
+\contentsline {chapter}{\numberline {1}{DEVELOPMENT OF A COMPUTATIONAL PLATFORM FOR STOCHASTIC OPTIMIZATION OF CHEMICAL SPACES}}{19}{chapter.14}%
+\contentsline {section}{\numberline {1.1}Abstract}{19}{section.15}%
+\contentsline {section}{\numberline {1.2}Introduction}{19}{section.16}%
+\contentsline {section}{\numberline {1.3}Methods}{22}{section.17}%
+\contentsline {subsection}{\numberline {1.3.1}Formulation of the native Paddy Field Algorithm}{22}{subsection.18}%
+\contentsline {chapter}{\numberline {2}{DATA DRIVEN SELECTION OF SOLVENTS FOR ORGANIC TRANSFORMATIONS}}{24}{chapter.21}%
+\contentsline {chapter}{\numberline {3}{STATISTICAL METHODOLOGY AND APPLICATIONS FOR AUTOMATED ANALYSIS AND GUIDANCE OF ANTIBODY ASSAY DEVELOPMENTS}}{25}{chapter.22}%
+\contentsline {section}{\numberline {3.1}Abstract}{25}{section.23}%
+\contentsline {section}{\numberline {3.2}Introduction}{26}{section.24}%
+\contentsline {section}{\numberline {3.3}Materials and Methods}{27}{section.25}%
+\contentsline {subsection}{\numberline {3.3.1}Generation of Anti-Idiotypic Antibodies}{27}{subsection.26}%
+\contentsline {subsection}{\numberline {3.3.2}Serum and Hybridoma Screening}{28}{subsection.27}%
+\contentsline {subsection}{\numberline {3.3.3}Serum and Hybridoma Screening}{28}{subsection.28}%
+\contentsline {subsection}{\numberline {3.3.4}Epitope Binning}{29}{subsection.29}%
+\contentsline {subsection}{\numberline {3.3.5}Indirect ECL-based Anti-ID Screening}{29}{subsection.30}%
+\contentsline {subsection}{\numberline {3.3.6}Anti-ID Biotin and Sulfo-TAG Labeling}{30}{subsection.31}%
+\contentsline {subsection}{\numberline {3.3.7}PK Assay Format and Labeled-Anti-ID Screening}{30}{subsection.32}%
+\contentsline {subsection}{\numberline {3.3.8}Generation of a Recombinant Anti-ID Reagents}{31}{subsection.33}%
+\contentsline {subsection}{\numberline {3.3.9}Score Calculations for Human-defined Metrics}{31}{subsection.34}%
+\contentsline {subsection}{\numberline {3.3.10}Scoring Tool}{39}{subsection.47}%
+\contentsline {subsection}{\numberline {3.3.11}Data Dependent Scoring}{40}{subsection.51}%
+\contentsline {section}{\numberline {3.4}Results}{41}{section.53}%
+\contentsline {subsection}{\numberline {3.4.1}Generation of Anti-IDs and Initial Selection}{41}{subsection.54}%
+\contentsline {subsection}{\numberline {3.4.2}Scoring Tool and Graphical User Interface}{44}{subsection.59}%
+\contentsline {subsection}{\numberline {3.4.3}Gaussian Mixture Model Based Scoring}{44}{subsection.60}%
+\contentsline {section}{\numberline {3.5}Discussion}{45}{section.62}%
+\contentsline {section}{\numberline {3.6}Conclusion}{48}{section.65}%
+\contentsline {section}{\numberline {3.7}Future Directions}{49}{section.66}%
+\contentsline {chapter}{\numberline {4}{ALGORITHM GUIDED EXPERIMENTATION OF ION-MOLECULE REACTIONS IN MASS SPECTROMETRY}}{61}{chapter.68}%
+\contentsline {chapter}{\numberline {5}{SUMMARY}}{62}{chapter.69}%
+\contentsline {section}{\numberline {5.1}First Section}{62}{section.70}%
+\contentsline {chapter}{\numberline {6}{RECOMMENDATIONS}}{63}{chapter.71}%
+\contentsline {chapter}{\numberline {7}{TEST}}{64}{chapter.72}%
+\contentsline {chapter}{\numberline {A}{PHYSICS}}{65}{chapter.73}%
+\contentsline {chapter}{PUBLICATION(S)}{67}{chapter*.74}%
